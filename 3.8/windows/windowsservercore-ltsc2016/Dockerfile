@@ -70,3 +70,5 @@ RUN Write-Host ('Downloading get-pip.py ({0}) ...' -f $env:PYTHON_GET_PIP_URL); 
 	Write-Host 'Complete.'
 
 CMD ["python"]
+
+print("Hellwo")
